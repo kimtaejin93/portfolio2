@@ -1,0 +1,39 @@
+:root{
+  --main-color:rgb(29, 62, 145);
+}
+.row{
+  margin:0;
+}
+.col-md-4{
+  padding:0;
+}
+.col-md-8{
+  padding:0;
+}
+
+
+.row-style{
+  display: flex;
+  align-items: center;
+  border-top: 2em solid var(--main-color);
+  border-bottom: 1em solid var(--main-color);
+  border-left: 2px solid;
+  border-right: 2px solid;
+}
+
+.name{
+  font-size: 3em;
+  text-align: end;
+}
+.job{
+  font-size: 2em;
+  text-align: end;
+}
+.subject{
+  font-size:2.5em;
+}
+.name-job-deco{
+  height: 0.5em;
+  width:100%;
+  border-top: 1px solid;
+}
