@@ -1,12 +1,27 @@
 :root{
   --main-color:rgb(29, 62, 145);
 }
+body{
+  color:var(--main-color);
+  background-color: rgb(223,224,213);
+}
+p{
+  margin: 0;
+}
 .row{
   margin:0;
+  
+}
+.row>*{
+  padding: 0;
+  
+}
+.col-md-3{
+  padding:0;
 }
 .col-md-4{
   padding:0;
-}
+  }
 .col-md-8{
   padding:0;
 }
@@ -24,16 +39,50 @@
 .name{
   font-size: 3em;
   text-align: end;
+  border-right: 1px solid;
+  border-bottom: 1px solid;
 }
 .job{
   font-size: 2em;
+  border-right: 1px solid;
   text-align: end;
 }
 .subject{
   font-size:2.5em;
+  text-align: center;
+  height: 100%;
 }
 .name-job-deco{
-  height: 0.5em;
+  height: 1em;
   width:100%;
   border-top: 1px solid;
+}
+.line-deco{
+  border-top: 1px solid;
+  margin-top: 1em;
+}
+.line-deco2{
+  text-align: end;
+  
+}
+.introduce{
+  display: flex;
+  align-items: center;
+  border: 2px solid;
+  text-align: center;
+  
+}
+.tb-1{
+  font-size: 3em;
+  
+  
+}
+.tb-1-1{
+  font-size: 2em;
+  text-align: center;
+  border-left: 2px solid;
+  border-bottom: 2px solid;
+}
+.tb-1-2{
+  border-left: 2px solid;
 }
